@@ -2,7 +2,7 @@ class TooYoungeException(Exception):
     def __init__(self,arg):
         self.msg=arg
 
-class TooOldException(Exception):
+class TooOldException(BaseException):
     def __init__(self,arg):
         self.msg=arg
 age=int(input("Enter age :"))
