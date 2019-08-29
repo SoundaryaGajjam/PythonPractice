@@ -23,6 +23,7 @@ e2.displayEmp()
 
 #Built-in classes
 print("Employee.__doc__ : ", Employee.__doc__)
+help(Employee)
 print("Employee.__name__ : ", Employee.__name__)
 print("Employee.__module__ : ", Employee.__module__)
 print("Employee.__bases__ : ", Employee.__bases__)
