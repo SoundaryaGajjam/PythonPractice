@@ -7,11 +7,20 @@ class Human:
     def talk(self):
         print("Helloo")
 
-def callTalk(obj):      #invoke any mtd on the obj
-    obj.talk()  #dynamically it invoke the talk() based on the obj
+def f1(obj):      #invoke any mtd on the obj
+    if hasattr(obj,'talk'):
+        obj.talk()  #dynamically it invoke the talk() based on the obj
+    elif hasattr(obj,'bark'):
+        obj.bark()
 
+class Dog:
+    def bark(self):
+        print("Bow Bow")
 d=Duck()
-callTalk(d)
+f1(d)
 
 h=Human()
-callTalk(h)
+f1(h)
+
+do=Dog()
+f1(do)
