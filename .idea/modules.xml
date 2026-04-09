@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Demo.iml" filepath="$PROJECT_DIR$/.idea/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JupyterProject/.idea/JupyterProject.iml" filepath="$PROJECT_DIR$/../JupyterProject/.idea/JupyterProject.iml" />
     </modules>
   </component>
 </project>
